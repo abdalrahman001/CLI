@@ -2,9 +2,9 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Parser {
-    private String commandName;
-    private List<String> options;
-    private String[] args;
+    public String commandName;
+    public List<String> options;
+    public String[] args;
 
     public Parser() {
         options = new ArrayList<>();
